@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18" class="java.beans.XMLDecoder">
+ <object class="PersistenciaXML.model.Tienda">
+  <void property="productos">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="id">
+       <int>1</int>
+      </void>
+      <void property="name">
+       <string>Plato</string>
+      </void>
+      <void property="price">
+       <double>2000.0</double>
+      </void>
+      <void property="stock">
+       <int>2</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="id">
+       <int>2</int>
+      </void>
+      <void property="name">
+       <string>Celular</string>
+      </void>
+      <void property="price">
+       <double>4000.0</double>
+      </void>
+      <void property="stock">
+       <int>2</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>perro</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>gato</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>papa</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>pera</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>papa</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>pera</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>Gaseosa</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>pepsi</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>Gaseosa</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="name">
+       <string>manzana</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
