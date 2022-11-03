@@ -105,6 +105,54 @@
       </void>
      </object>
     </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="id">
+       <int>3</int>
+      </void>
+      <void property="name">
+       <string>pera</string>
+      </void>
+      <void property="price">
+       <double>10.0</double>
+      </void>
+      <void property="stock">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="id">
+       <int>100</int>
+      </void>
+      <void property="name">
+       <string>piña</string>
+      </void>
+      <void property="price">
+       <double>1.0</double>
+      </void>
+      <void property="stock">
+       <int>2</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="PersistenciaXML.model.Producto">
+      <void property="id">
+       <int>111</int>
+      </void>
+      <void property="name">
+       <string>mango</string>
+      </void>
+      <void property="price">
+       <double>3700.0</double>
+      </void>
+      <void property="stock">
+       <int>50</int>
+      </void>
+     </object>
+    </void>
    </object>
   </void>
  </object>

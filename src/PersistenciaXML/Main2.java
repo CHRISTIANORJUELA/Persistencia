@@ -16,15 +16,22 @@ public class Main2 {
         //CON EL OBJETIVO DE VER COMO CADA VEZ QUE AGREGAMOS UNO NUEVO EL ARCHIVO CON EXTENSION: .XML
         //SE ACTUALIZARA.
 
-        while (true){
-            Producto producto = new Producto();
-            producto.setName(JOptionPane.showInputDialog("ingrese el nombre del producto"));
-            tienda.getProductos().add(producto);
-            JOptionPane.showMessageDialog(null,"Producto agregado");
-            Persistencia.guardarRecursoBancoXML(tienda);
+        try {
+            while (true){
+                Producto producto = new Producto();
+                producto.setName(JOptionPane.showInputDialog("ingrese el nombre del producto"));
+                producto.setId(Integer.parseInt(JOptionPane.showInputDialog("ingrese el Id (Numero) del Producto")));
+                producto.setStock(Integer.parseInt(JOptionPane.showInputDialog("ingrese La cantidad (Numero) del Producto")));
+                producto.setPrice(Double.parseDouble(JOptionPane.showInputDialog("ingrese el precio (Numero) del producto")));
+                tienda.getProductos().add(producto);
+                JOptionPane.showMessageDialog(null,"Producto agregado");
+                Persistencia.guardarRecursoBancoXML(tienda);
+                System.out.println("Nombres de Objetos agregados : ");
+                for (Producto p:tienda.getProductos()){System.out.println(p.getName());}
+            }
+        }catch (NumberFormatException e){
+            System.out.println("Ingresaste un valor no valido");
         }
-
-
 
     }
 }
